@@ -1,15 +1,10 @@
  .container {
-    max-width: calc(var(--container-width) + var(--container-padding-x) * 2);
-    padding-inline: var(--container-padding-x);
+    max-width: calc(var(--container-width) + var(--paddings-12) * 2);
+    padding-inline: var(--paddings-12);
  }
 
  .section {
-  margin-bottom: var(--section-margin);
- }
-
- .section__title {
-  font-family: var(--font-alt);
-  font-size: 60px;
+  margin-bottom: var(--paddings-12);
  }
 
  .visually-hidden {
