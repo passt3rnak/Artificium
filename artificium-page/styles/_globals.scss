@@ -1,0 +1,13 @@
+body {
+ }
+
+ a {
+    text-decoration: none;
+ }
+
+  a,
+ button,
+ input,
+ svg * {
+    transition-duration: var(--transition-duration);
+ }
