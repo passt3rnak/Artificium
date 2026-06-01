@@ -1,0 +1,69 @@
+.sidebar {
+    background-color: var(--color-noble-black-800);
+    padding: var(--paddings-24);
+    border-radius: 20px;
+
+    &__workspace {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        column-gap: 20px;
+        margin-bottom: var(--paddings-24);;
+
+        &-wrapper {
+            display: flex;
+            flex-direction: row;
+            column-gap: 16px;
+            align-items: center;
+        }
+
+        &-info {
+            display: flex;
+            flex-direction: column;
+            row-gap: 4px;
+        }
+
+        &-name {
+            color: var(--color-light);
+            font-size: 16px;
+            line-height: 24px;
+            letter-spacing: 0.15px;
+            font-weight: 600;
+        }
+
+        &-members {
+            color: var(--color-stem-green-500);
+            font-size: 12px;
+            line-height: 18px;
+            letter-spacing: 0.15px;
+            font-weight: 500;
+        }
+
+        &-button {
+            padding: 4px;
+        }
+    }
+    
+    &__general {
+        display: flex;
+        flex-direction: column;
+        row-gap: var(--paddings-24);
+
+        &-title {
+            color: var(--color-noble-black-400);
+            font-size: 12px;
+            line-height: 18px;
+            letter-spacing: 0.15px;
+            font-weight: 600;
+
+        }
+
+        &-control {
+            display: flex;
+            flex-direction: column;
+            row-gap: 22px;
+            color: var(--color-noble-black-100)
+        }
+    }
+}

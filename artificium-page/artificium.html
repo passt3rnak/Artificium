@@ -9,11 +9,38 @@
 <body>
     <div class="page">
         <aside class="page__sidebar container">
-            <section class="sidebar section">
-                
+            <section class="sidebar section"> 
+                <h1 class="visually-hidden">Sidebar</h1>
+                <div class="sidebar__workspace">
+                    <div class="sidebar__workspace-wrapper">
+                        <img src="/images/group-avatar.png" alt="" class="sidebar__workspace-avatar" width="48" height="48" loading="lazy">
+                        <div class="sedebar__workspace-info">
+                            <p class="sidebar__workspace-name">Intellisys</p>
+                            <p class="sidebar__workspace-members">12 members</p>
+                        </div>
+                    </div>
+                    <div class="sidebar__workspace-control">
+                        <button class="sidebar__workspace-button" type="button">
+                            <img src="/images/down-arrow-button.png" alt="" width="16" height="16" loading="lazy">
+                        </button>
+                    </div>
+                </div>
+                <div class="sidebar__general">
+                    <h2 class="sidebar__general-title">GENERAL</h2>
+                    <div class="sidebar__general-control">
+                        <div class="sidebar__general-search">
+                            <label class="visually-hidden" for="general-search"></label>
+                            <input type="text" placeholder="Search">
+                        </div>
+                        <div class="sidebar__general-billing">
+                            <a href="#">Billing</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="sidebar__projects"></div>
+                <div class="sidebar__user"></div>
             </section>
-        </aside>
-        <div class="page__content container"></div>
+        </aside>    
     </div>
 </body>
 </html>

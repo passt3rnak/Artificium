@@ -1,6 +1,6 @@
  .container {
     max-width: calc(var(--container-width) + var(--paddings-12) * 2);
-    padding-inline: var(--paddings-12);
+    padding: var(--paddings-12);
  }
 
  .section {
